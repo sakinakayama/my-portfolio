@@ -1,0 +1,32 @@
+@import "../../global.scss";
+
+.projects {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 30px;
+  background-color: $backgroundColour;
+
+  .project {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+}
+
+.p-title {
+  font-weight: bold;
+}
+
+.p-desc {
+  font-size: 20px;
+  margin-top: 10px;
+
+  @include mobile {
+    font-size: 15px;
+  }
+}

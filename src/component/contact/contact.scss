@@ -1,0 +1,41 @@
+@import "../../global.scss";
+
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  height: 30vh;
+  margin-top: 20px;
+  border-top: dotted 5px $subColour;
+
+  h2 {
+    font-weight: bold;
+  }
+
+  p {
+    font-size: 12px;
+  }
+}
+
+.social-icons {
+  margin: 20px 0 30px;
+}
+
+.icon-github {
+  display: inline-block;
+  margin: 0 20px;
+  vertical-align: top;
+}
+
+.icon-font {
+  display: inline-block;
+  margin: 0 20px;
+  size: 32px;
+  color: black;
+}
+
+.copylight {
+  font-size: 12px;
+}

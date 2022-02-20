@@ -1,0 +1,166 @@
+@import "../../global.scss";
+
+.intro {
+  height: 100vh;
+  display: flex;
+  background-color: $backgroundColour;
+
+  @include mobile {
+    flex-direction: column;
+    align-items: center;
+    line-height: 1.6;
+  }
+}
+
+.i-left {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  a {
+    text-decoration: none;
+  }
+}
+
+.i-left-wrapper {
+  padding: 15%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.i-title {
+  font-size: 60px;
+  font-weight: bold;
+
+  @include mobile {
+    font-size: 55px;
+    margin-bottom: 10px;
+  }
+}
+
+.i-subtitle {
+  font-size: 30px;
+
+  @include mobile {
+    margin-bottom: 10px;
+  }
+}
+
+.i-desc {
+  font-weight: 300;
+
+  @include mobile {
+    font-weight: 100;
+  }
+}
+
+.btn-project {
+  background: $mainColour;
+  border-radius: 10px;
+  color: $backgroundColour;
+  font-size: 20px;
+  font-weight: 100;
+  padding: 10px 20px;
+  border-style: solid;
+  border-width: thin;
+  border-color: $mainColour;
+  cursor: pointer;
+  text-align: center;
+  margin-right: 20px;
+
+  @include mobile {
+    font-size: 15px;
+    font-weight: 400;
+    padding: 8px 10px;
+  }
+}
+
+.btn-project:hover {
+  background: #410000;
+  border-radius: 10px;
+  border-style: solid;
+  border-width: thin;
+  border-color: #410000;
+}
+
+.btn-cv {
+  background: $backgroundColour;
+  border-radius: 10px;
+  color: $mainColour;
+  font-size: 20px;
+  font-weight: 100;
+  padding: 10px 20px;
+  border-style: solid;
+  border-width: thin;
+  border-color: $mainColour;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+
+  @include mobile {
+    font-size: 15px;
+    font-weight: 400;
+    padding: 8px 10px;
+  }
+}
+
+.btn-cv:hover {
+  background: $mainColour;
+  color: $backgroundColour;
+  border-radius: 10px;
+  border-style: solid;
+  border-width: thin;
+  border-color: #410000;
+}
+
+.i-right {
+  flex: 1;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.i-right-wrapper {
+  height: 60%;
+  width: 100%;
+  padding: 60px;
+
+  @include mobile {
+    padding: 100px;
+  }
+}
+
+.i-card.bg {
+  position: absolute;
+  bottom: 120px;
+  right: 100px;
+  background-color: $subColour;
+
+  @include mobile {
+    top: 50px;
+    left: 40px;
+  }
+}
+
+.i-card {
+  position: absolute;
+  width: 60%;
+  height: 60%;
+  border-radius: 50%;
+  overflow: hidden;
+
+  @include mobile {
+    width: 80%;
+    bottom: 30px;
+    left: 0;
+  }
+}
+
+.i-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
