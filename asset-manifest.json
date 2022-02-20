@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.8af4a816.css",
+    "main.js": "/portfolio/static/js/main.96e105f2.js",
+    "static/js/787.128fc6e9.chunk.js": "/portfolio/static/js/787.128fc6e9.chunk.js",
+    "static/media/matakanaedited.png": "/portfolio/static/media/matakanaedited.7ff4e11fd84744d1edef.png",
+    "static/media/misoraedited.png": "/portfolio/static/media/misoraedited.4aae146ee4fb0d57d7e9.png",
+    "static/media/misora.png": "/portfolio/static/media/misora.fb793943815e71d04084.png",
+    "static/media/sakihobbit.png": "/portfolio/static/media/sakihobbit.1285a65b8d1b29241c0d.png",
+    "static/media/learnmathwithmeadd.png": "/portfolio/static/media/learnmathwithmeadd.6d8fa6bfff9cb7edfcbb.png",
+    "static/media/patientms.png": "/portfolio/static/media/patientms.083a54eb875b6779c910.png",
+    "static/media/CV.pdf": "/portfolio/static/media/CV.966b82e48976fefade16.pdf",
+    "static/media/misoraapi.png": "/portfolio/static/media/misoraapi.31e05ad7d39877fa6974.png",
+    "index.html": "/portfolio/index.html",
+    "main.8af4a816.css.map": "/portfolio/static/css/main.8af4a816.css.map",
+    "main.96e105f2.js.map": "/portfolio/static/js/main.96e105f2.js.map",
+    "787.128fc6e9.chunk.js.map": "/portfolio/static/js/787.128fc6e9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8af4a816.css",
+    "static/js/main.96e105f2.js"
+  ]
+}
