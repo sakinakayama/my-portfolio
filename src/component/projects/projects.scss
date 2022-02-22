@@ -9,6 +9,10 @@
   padding: 30px;
   background-color: $backgroundColour;
 
+  @include mobile {
+    margin-top: 50px;
+  }
+
   .project {
     display: flex;
     align-items: center;
