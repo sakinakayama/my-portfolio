@@ -1,6 +1,6 @@
 import "./intro.scss";
 import profile from "../../img/sakihobbit.png";
-import Cv from "../../document/CV_Saki.pdf";
+import Cv from "../../document/CV_Saki_Nakayama.pdf";
 
 export default function About() {
   return (

@@ -2,7 +2,7 @@ import "./contact.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope, faFileLines } from "@fortawesome/free-solid-svg-icons";
 import Github from "../../img/GitHub-Mark-32px.png";
-import Cv from "../../document/CV_Saki.pdf";
+import Cv from "../../document/CV_Saki_Nakayama.pdf";
 
 export default function Contact() {
   return (
@@ -14,7 +14,7 @@ export default function Contact() {
         </a>
         <a
           href=""
-          onClick={() => (window.location = "mailto:saki110490@gmail.com?")}
+          onClick={() => (window.location.href = "mailto:saki110490@gmail.com")}
         >
           <FontAwesomeIcon icon={faEnvelope} size="2x" className="icon-font" />
         </a>
