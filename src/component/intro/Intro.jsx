@@ -1,6 +1,6 @@
 import "./intro.scss";
 import profile from "../../img/sakihobbit.png";
-import Cv from "../../document/CV_Saki_Nakayama.pdf";
+import Cv from "../../document/Saki-Nakayama-CV.pdf";
 
 export default function About() {
   return (
@@ -23,7 +23,7 @@ export default function About() {
             >
               My Projects
             </button>
-            <a className="btn-cv" href={Cv} target="_blank">
+            <a className="btn-cv" href={Cv} target="_blank" rel="noreferrer">
               Download CV
             </a>
           </div>
