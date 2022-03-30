@@ -2,7 +2,7 @@ import "./contact.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope, faFileLines } from "@fortawesome/free-solid-svg-icons";
 import Github from "../../img/GitHub-Mark-32px.png";
-import Cv from "../../document/Saki-Nakayama-CV.pdf";
+import Cv from "../../document/CV - Saki-Nakayama.pdf";
 
 export default function Contact() {
   return (
