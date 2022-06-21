@@ -1,7 +1,8 @@
 import "./contact.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEnvelope, faFileLines } from "@fortawesome/free-solid-svg-icons";
+import { faCoffee, faFileLines } from "@fortawesome/free-solid-svg-icons";
 import Github from "../../img/GitHub-Mark-32px.png";
+import Linkedin from "../../img/LI-In-Bug.png";
 import Cv from "../../document/CV - Saki-Nakayama.pdf";
 
 export default function Contact() {
@@ -13,10 +14,10 @@ export default function Contact() {
           <img src={Github} className="icon-github" alt="" />
         </a>
         <a
-          href=""
-          onClick={() => (window.location.href = "mailto:saki110490@gmail.com")}
+          href="https://linkedin.com/in/saki-nakayama-664837218"
+          target="_blank"
         >
-          <FontAwesomeIcon icon={faEnvelope} size="2x" className="icon-font" />
+          <img src={Linkedin} className="icon-linkedin" alt="" />
         </a>
         <a href={Cv} target="_blank">
           <FontAwesomeIcon icon={faFileLines} size="2x" className="icon-font" />
