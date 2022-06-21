@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.9f0bdff2.css",
-    "main.js": "/my-portfolio/static/js/main.46812b90.js",
+    "main.css": "/my-portfolio/static/css/main.551d413d.css",
+    "main.js": "/my-portfolio/static/js/main.13424326.js",
     "static/js/787.128fc6e9.chunk.js": "/my-portfolio/static/js/787.128fc6e9.chunk.js",
     "static/media/matakanaedited.png": "/my-portfolio/static/media/matakanaedited.7ff4e11fd84744d1edef.png",
     "static/media/misoraedited.png": "/my-portfolio/static/media/misoraedited.4aae146ee4fb0d57d7e9.png",
@@ -12,12 +12,12 @@
     "static/media/misoraapi.png": "/my-portfolio/static/media/misoraapi.31e05ad7d39877fa6974.png",
     "static/media/CV - Saki-Nakayama.pdf": "/my-portfolio/static/media/CV - Saki-Nakayama.e006c4d2090183684703.pdf",
     "index.html": "/my-portfolio/index.html",
-    "main.9f0bdff2.css.map": "/my-portfolio/static/css/main.9f0bdff2.css.map",
-    "main.46812b90.js.map": "/my-portfolio/static/js/main.46812b90.js.map",
+    "main.551d413d.css.map": "/my-portfolio/static/css/main.551d413d.css.map",
+    "main.13424326.js.map": "/my-portfolio/static/js/main.13424326.js.map",
     "787.128fc6e9.chunk.js.map": "/my-portfolio/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9f0bdff2.css",
-    "static/js/main.46812b90.js"
+    "static/css/main.551d413d.css",
+    "static/js/main.13424326.js"
   ]
 }
