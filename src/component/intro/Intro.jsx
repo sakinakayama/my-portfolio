@@ -8,10 +8,9 @@ export default function About() {
       <div className="i-left">
         <div className="i-left-wrapper">
           <h1 className="i-title">Hello, I'm Saki</h1>
-          <h2 className="i-subtitle">Software Developer</h2>
+          <h2 className="i-subtitle">Software QA Tester/Localization Specialist</h2>
           <p className="i-desc">
-            I recently completed Graduate Diploma in IT. Based in Auckland, New
-            Zealand.
+            Specializes in Manual Testing. Based in Tokyo.
           </p>
           <div className="i-btn">
             <button
