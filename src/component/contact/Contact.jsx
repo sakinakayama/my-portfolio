@@ -19,11 +19,8 @@ export default function Contact() {
         >
           <img src={Linkedin} className="icon-linkedin" alt="" />
         </a>
-        <a href={Cv} target="_blank">
-          <FontAwesomeIcon icon={faFileLines} size="2x" className="icon-font" />
-        </a>
       </div>
-      <p className="copylight">© 2022 Saki Nakayama.</p>
+      <p className="copylight">© 2024 Saki Nakayama.</p>
     </div>
   );
 }
